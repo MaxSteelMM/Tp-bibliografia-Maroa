@@ -1,0 +1,59 @@
+*{
+    height: 100;
+    padding: 0;
+    margin: 0;
+}
+.body{
+    background-color: rgb(14, 168, 206);
+}
+.menu{
+    font-family:'Courier New', Courier, monospace;
+    position: sticky;
+    box-sizing: border-box;
+    background-color: rgba(211, 50, 50, 0.742);
+    right: 0;
+    left: 0;
+}
+.menu h1 {
+    font-size:xx-large;
+    position:static;
+    top: 0;
+    left: 0;
+    margin: 0%;
+}
+.menu ul{
+    position: relative;
+    bottom: 50px;
+    left: 1200px;
+}
+.menu li{
+    display: inline-block;
+    margin-left: 5px; 
+    padding-top: 25px;
+    text-transform:uppercase ;
+
+}
+.Fav{
+    margin-top: auto;
+}
+.Fav h2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Fav p{
+    font-size: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.Fav a{
+    font-size: 20px;
+    left: 100px;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+

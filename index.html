@@ -3,9 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hola mundo</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Mi biografia</title>
 </head>
+
 <body>
-    <h1>hellooo!</h1>
+    <!--Menu de inicio-->
+    <nav class="menu">
+        <h1>Mi Biografia</h1>
+        <ul>
+            <li><a href="">Inicio</a></li>
+            <li><a href="">Contacto</a></li>
+            <li><a href="">Acerca</a></li>
+        </ul>
+    </nav>
+
+    <section class="Fav">
+        <h2 id="titulo">Mis Pasatiempos</h2>
+        <p class="titulito">Me encanta la tecnologia,deportes y videojuegos</p>
+        <h2> Mi red social favorita:</h2>
+      
+        <a href="https://www.tiktok.com" ><img src="imagenes\tiktok.png" alt=""></a>
+    </section>
+
+    <section class="preferencias">
+        <h2 >Mis peliculas favoritas</h2>
+    <ol>
+        <li>
+            Alien Romulus 
+        </li>
+        <img src="imagenes\images.jfif" alt="Alien" height="300" width="200">
+        <li>
+            Star Wars El retorno de los jedi
+        </li>
+         <img src="imagenes\ReturnOfTheJediPoster1983.webp" alt="Star Wars" height="300" width="200">
+        <li>
+            Avengers End Game
+        </li>
+         <img src="imagenes\Avenger_Endgame_Poster_Oficial.webp" alt="Avengers" height="300" width="200">
+    </ol>
+    </section>
+    
+     <h2>Mis hobbies:</h2>
+        <ul>
+            <li>Jugar videojuegos</li>
+            <img src="imagenes\ps5.webp" alt="ps5" width="200" height="200">
+            <li>Jugar futbol e ir al gimnasio</li>
+            <img src="imagenes\press_inclinado.jpg" alt="press inclinado en smith" height="200" width="400" >
+            <li>Dormir</li>
+            <img src="imagenes\osito durmiendo.avif" alt="osito" height="200" width="200">
+        </ul>
+    </section>
+    <section id="contacto" class="contacto">
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+
+            <label for="contraseña">Contraseña:</label>
+            <input type="text" id="contra" name="contraseña">
+
+            <button type="submit">Enviar</button> 
+        </form>
+    </section>
 </body>
 </html>
