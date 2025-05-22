@@ -1,0 +1,1 @@
+Este repositorio contiene el Trabajo Práctico N.º 3 de Web Estática. Incluye una página web desarrollada según la consigna asignada, con información sobre gustos, hobbies, bibliografía y otros contenidos relacionados.
